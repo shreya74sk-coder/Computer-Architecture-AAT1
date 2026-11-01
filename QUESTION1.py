@@ -1,4 +1,3 @@
-```python
 memory = {100: 12, 104: 8}
 registers = {}
 
@@ -19,4 +18,3 @@ print("R3 =", registers["R3"])
 print("\nInstruction: STORE R3, 108")
 memory[108] = registers["R3"]
 print("Memory[108] =", memory[108])
-```
